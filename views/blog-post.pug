@@ -1,0 +1,10 @@
+div.blog-post-container
+  h2= post.blog_title
+  p= post.blog_body
+  span
+    form(action="http://localhost:3000/edit", method="POST")
+      input(type="text", hidden="true",readonly="true" name="id" value=post.id)
+      button(type="submit") Edit
+    form(action="http://localhost:3000/delete", method="POST")
+      input(type="text", hidden="true",readonly="true" name="id" value=post.id)
+      button(type="submit") Delete

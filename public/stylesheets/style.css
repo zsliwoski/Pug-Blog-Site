@@ -1,8 +1,49 @@
 body {
+  background-color: rgb(41, 49, 49);
+  color: rgb(216, 219, 196);
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+.header-wrapper{
+  border-bottom: 1px solid black;
+  padding: 16px;
+}
+.footer-wrapper{
+  border-top: 1px solid black;
+  padding: 16px;
+}
+.blog-post-container{
+  background-color: rgb(94, 91, 91);
+  padding:16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+.post-text-area{
+  width: 100%
+}
+.styled-button{
+  padding: 16px;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(114, 114, 114);
+  color: rgb(216, 219, 196);
+  border-radius: 4px;
+}
+.styled-button:hover{
+  cursor: 'pointer';
+}
+.top-link{
+  margin:4px;
+}
+.blog-post-link{margin:2px;}
+.blog-delete{color:red}
+.blog-back{  
+  padding: 16px;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(114, 114, 114);
+  color: rgb(216, 219, 196);
+  border-radius: 4px;
 }

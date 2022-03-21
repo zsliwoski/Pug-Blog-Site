@@ -1,0 +1,13 @@
+extends index
+
+block content
+  p Here you can post a new blog entry
+  form(action="http://localhost:3000/finish_post", method="POST") 
+    h2 Post title
+    input.form-control(name = "blog_title")
+    br
+    h2 Post content
+    textarea.post-text-area(rows=10, name="blog_body").form-control
+    br
+    button(type="submit").styled-button Post
+    

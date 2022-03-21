@@ -1,0 +1,13 @@
+extends index
+
+block content
+  p Here you can edit a post
+  form(action="http://localhost:3000/finish_edit", method="POST") 
+    input.form-control(type="text", value=id, name = "id", readonly="true" hidden="true")
+    h2 Post title
+    input.form-control(type="text", value=blog_title, name = "blog_title")
+    br
+    h2 Post content
+    textarea.post-text-area(rows=10, value=blog_body, name="blog_body") !{blog_body}
+    br
+    button(type="submit").styled-button Finish Edit

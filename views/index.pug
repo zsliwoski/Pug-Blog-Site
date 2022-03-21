@@ -1,5 +1,14 @@
 extends layout
 
-block content
-  h1= title
-  p Welcome to #{title}
+block wrapper
+  div.header-wrapper
+    h1 The Blogging engine
+    h2=title
+    b 
+    span 
+      a.top-link(href="/home") Home
+      a.top-link(href="/new") Create Post
+  block content
+  div.footer-wrapper
+    h2 Footer text
+    p This site serves as a template for a blogging engine, created by Zarek Sliwoski 
