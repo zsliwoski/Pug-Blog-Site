@@ -1,7 +1,7 @@
-# Final website for CS401
+# Final CS401 website
 
 Name: Zarek Sliwoski
-Email: zareksliwoski@u.boisestate.edu
+Email: zsliwoski@gmail.com
 
 ## How to run this website
 - run the database_setup.sql file to setup the database
