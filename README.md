@@ -1,7 +1,7 @@
-# Final CS401 website
+# Javascript (Pug) Blog Site
 
-Name: Zarek Sliwoski
-Email: zsliwoski@gmail.com
+- Name: Zarek Sliwoski
+- Email: zsliwoski@gmail.com
 
 ## How to run this website
 - run the database_setup.sql file to setup the database
